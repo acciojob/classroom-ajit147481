@@ -1,9 +1,11 @@
 package com.driver;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
-
+@Repository
 public class StudentRepository {
     private HashMap<String,Student> studentDB;
     private HashMap<String,Teacher> teacherDB;
